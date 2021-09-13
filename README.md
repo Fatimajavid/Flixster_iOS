@@ -18,4 +18,4 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="https://submissions.us-east-1.linodeobjects.com/ios_university/UaCUChDL.gif" width=250><br>
 
 ### Notes
-I leaned how to use Cocoa Pod and a Podfile to add poster images to my app. 
+I learned how to use Cocoa Pod and a Podfile to add poster images to my app. 
