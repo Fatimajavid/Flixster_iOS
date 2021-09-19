@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		5E4679F826EEBAA60078A426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4679F626EEBAA60078A426 /* LaunchScreen.storyboard */; };
 		5E467A0626EEBB880078A426 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E467A0526EEBB880078A426 /* MovieViewController.swift */; };
 		5E467A0926EEBCD80078A426 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E467A0826EEBCD80078A426 /* MovieCell.swift */; };
+		D770EC2D26F475E9003B181F /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D770EC2C26F475E9003B181F /* MovieDetailsViewController.swift */; };
+		D770EC2F26F48C5C003B181F /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D770EC2E26F48C5C003B181F /* MovieGridViewController.swift */; };
+		D770EC3126F4E175003B181F /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D770EC3026F4E175003B181F /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		5E467A0826EEBCD80078A426 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		6FFCC88D059CE47B1F3839AB /* Pods-Flixster-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixster-iOS.release.xcconfig"; path = "Target Support Files/Pods-Flixster-iOS/Pods-Flixster-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		B27CF4BB148951ED257DE890 /* Pods_Flixster_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flixster_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D770EC2C26F475E9003B181F /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		D770EC2E26F48C5C003B181F /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		D770EC3026F4E175003B181F /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		FF7B37251B940EEA049AAE8B /* Pods-Flixster-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixster-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Flixster-iOS/Pods-Flixster-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +79,9 @@
 				5E4679F926EEBAA60078A426 /* Info.plist */,
 				5E467A0526EEBB880078A426 /* MovieViewController.swift */,
 				5E467A0826EEBCD80078A426 /* MovieCell.swift */,
+				D770EC2C26F475E9003B181F /* MovieDetailsViewController.swift */,
+				D770EC2E26F48C5C003B181F /* MovieGridViewController.swift */,
+				D770EC3026F4E175003B181F /* MovieGridCell.swift */,
 			);
 			path = "Flixster-iOS";
 			sourceTree = "<group>";
@@ -83,7 +92,6 @@
 				FF7B37251B940EEA049AAE8B /* Pods-Flixster-iOS.debug.xcconfig */,
 				6FFCC88D059CE47B1F3839AB /* Pods-Flixster-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,10 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D770EC2D26F475E9003B181F /* MovieDetailsViewController.swift in Sources */,
 				5E4679EC26EEBAA40078A426 /* AppDelegate.swift in Sources */,
 				5E4679EE26EEBAA40078A426 /* SceneDelegate.swift in Sources */,
 				5E467A0926EEBCD80078A426 /* MovieCell.swift in Sources */,
 				5E467A0626EEBB880078A426 /* MovieViewController.swift in Sources */,
+				D770EC2F26F48C5C003B181F /* MovieGridViewController.swift in Sources */,
+				D770EC3126F4E175003B181F /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

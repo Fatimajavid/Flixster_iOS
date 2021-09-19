@@ -2,14 +2,16 @@
 //  MovieCell.swift
 //  Flixster-iOS
 //
-//  Created by Alexis Edwards on 9/12/21.
+//  Created by Fatima Javid on 9/12/21.
 //
+
 
 import UIKit
 
 class MovieCell: UITableViewCell {
     
-    @IBOutlet weak var posterImage: UIImageView!
+
+    @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
     
