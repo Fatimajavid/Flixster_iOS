@@ -1,6 +1,9 @@
-# Flix
+# Flixster
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+
+
+## Flix Part 2
 
 #### REQUIRED (10pts)
 - [x] (5pts) User can tap a cell to see more details about a particular movie.
@@ -11,12 +14,11 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
+<img src="https://media.giphy.com/media/PyrazsVzPn5l8T8rnw/giphy.gif?cid=790b7611eb028b77fd923809dcbbe28aaab4a0c7da4f1d8a&rid=giphy.gif&ct=g" width=250><br>
 <img src="https://media.giphy.com/media/br7sPBRTvlLMFspmKU/giphy.gif?cid=790b76113fb5e92881e0137d8660188a786bb5579413766e&rid=giphy.gif&ct=g" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+I learned how to use Tab Bars and switch between screens on app. I also learned the difference between a table view and a collection view and how to build navigation by learning how to send data from one screen to the next screen
 
 ---
 
